@@ -3,10 +3,11 @@ from typing import Any, Dict, Optional
 
 
 class HttpClient:
-    def __init__(self, base_url: str, headers: Dict[str, str]) -> None:
+    def __init__(self, base_url: str, headers: Dict[str, str], auth_client_secret) -> None:
         self.base_url = base_url
         self.headers = headers
         self.client = httpx.AsyncClient()
+        self.auth = auth_client_secret
 
     async def __aenter__(self):
         return self
@@ -16,6 +17,11 @@ class HttpClient:
 
     async def make_request(self, method: str, endpoint: str, data: Optional[Dict[str, Any]] = None) -> httpx.Response:
         url = f"{self.base_url}{endpoint}"
+
+        # Include the authentication header
+        if self.auth:
+            self.headers['Authorization'] = f"Bearer {self.auth.api_key}"
+
         response = await self.client.request(method, url, headers=self.headers, json=data)
         response.raise_for_status()
         return response

@@ -84,12 +84,15 @@ This repository is the front end of the agent.
 
 ## Important Notes
 
-- **Starter Project**: This project provides a basic structure and examples to help you get started. The schema and helper classes in the `weaviate` folder are just examples. You are encouraged to modify and extend them according to your needs.
-- **Flexibility**: You are not restricted to the current architecture or the packages used. Feel free to make any modifications to suit your approach to solving the challenge.
+**Features in the works**
 
-## Schema Overview
-
-The provided schema includes classes for documents and chatbot responses, with properties to store relevant information. The helper classes demonstrate how to interact with the Weaviate instance.
+- Delete session
+- Remove session leakage
+- User accounts
+- activate session rename keys
+- update knowlage base
+- Make search more robust and swicth to vector based
+- Upgrade model? cost vs performance
 
 ## Contributions
 

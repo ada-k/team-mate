@@ -1,6 +1,14 @@
 # Team-Mate
 
-Team-Mate is an independent company dedicated to helping students and trainees manage their time and focus more effectively. This project demonstrates a personalized LLM-enhanced agent designed to optimize schedules, facilitate collaboration, and provide tailored support for enhanced learning experiences.
+TeamMate is a personalized LLM-enhanced agent. It serves as a supportive digital assistant to help students manage their tasks effectively, facilitate collaboration, and access necessary resources effortlessly.  
+Key Services Provided by Team-Mate:
+- Personalised Interaction: 
+- Adaptive Learning and Support: 
+- Proactive Planning and Scheduling: 
+- Blocker Resolution: 
+- Enhance collaboration: 
+
+This repository is the front end of the agent.
 
 ## Repository Structure
 

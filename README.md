@@ -1,14 +1,6 @@
 # Team-Mate
 
-TeamMate is a personalized LLM-enhanced agent. It serves as a supportive digital assistant to help students manage their tasks effectively, facilitate collaboration, and access necessary resources effortlessly.  
-Key Services Provided by Team-Mate:
-- Personalised Interaction: 
-- Adaptive Learning and Support: 
-- Proactive Planning and Scheduling: 
-- Blocker Resolution: 
-- Enhance collaboration: 
-
-This repository is the front end of the agent.
+Team-Mate is an independent company dedicated to helping students and trainees manage their time and focus more effectively. This project demonstrates a personalized LLM-enhanced agent designed to optimize schedules, facilitate collaboration, and provide tailored support for enhanced learning experiences.
 
 ## Repository Structure
 
@@ -84,15 +76,12 @@ This repository is the front end of the agent.
 
 ## Important Notes
 
-**Features in the works**
+- **Starter Project**: This project provides a basic structure and examples to help you get started. The schema and helper classes in the `weaviate` folder are just examples. You are encouraged to modify and extend them according to your needs.
+- **Flexibility**: You are not restricted to the current architecture or the packages used. Feel free to make any modifications to suit your approach to solving the challenge.
 
-- Delete session
-- Remove session leakage
-- User accounts
-- activate session rename keys
-- update knowlage base
-- Make search more robust and swicth to vector based
-- Upgrade model? cost vs performance
+## Schema Overview
+
+The provided schema includes classes for documents and chatbot responses, with properties to store relevant information. The helper classes demonstrate how to interact with the Weaviate instance.
 
 ## Contributions
 
@@ -101,3 +90,6 @@ We welcome contributions and suggestions! Feel free to fork the repository, make
 ## License
 
 This project is licensed under the MIT License.
+
+
+![alt text](image.png)
